@@ -1,1 +1,34 @@
 error.log
+
+
+#syntax :
+
+*) pwd : To see "present working Directory".
+
+*) ls : To see List of content in 'PWD'.
+
+*) git config --global <user.name> or <user.email> "<name> or <email>" : Give Info of us.
+
+*) git status : to see whether folder is git repository or not? and Which files are in staging area.
+
+*) git init : Convert folder to the 'Git Repository'.
+
+*) git add --a 'OR' git add .  : To add all files in "Staging Area".
+
+*) git commit -m "<any msg>" : To commit "Staging Area" Files. 
+ 
+   -> note : If we Don't use -m then Editer Will Open. If we need only to Commit files and Do nothing then use this command.
+
+*) git log : To Know how many commits are done by whom and when.
+
+*) git add <file> : To update what will be committed.
+
+*) git restore <file> :  To discard changes in working directory.
+
+*) rm -rf .git : To Remove 'Git Repository' status Of Folder. (High Risk command)
+
+*) touch <File_name> : Create A file. (Eg. touch error.log )
+ 
+*) git diff: Showing Changes Between Staging Area & Working Directory.
+
+*) git diff --staged : Showing Changes Between Commits & Staging Area.
